@@ -18,4 +18,4 @@
 
 ## 许可
 
-CC BY-NC 4.0（署名—非商业性使用），作者：hexiaoyu0525-design，详见 [LICENSE](LICENSE)。
+CC BY 4.0（署名），作者：hexiaoyu0525-design，详见 [LICENSE](LICENSE)。
