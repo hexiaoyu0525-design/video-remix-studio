@@ -1,6 +1,6 @@
 ---
 name: video-remix-studio
-description: 以一条参考爆款视频为起点，克隆/复刻/翻拍/改编成自己版本的全流程导演流水线。用户给参考视频链接或文件，想保留结构节奏爆点、同时换人/换产品/换品牌/换语言/换场景重做时使用（口播/盘点/短剧/街采/双人播客/讲解/旁白带货）。不用于：从零创意全新片（doubao-creative-video）、时尚大片（fashion-studio）、纯剪辑（byted-mediakit-editing）。
+description: 以一条参考爆款视频为起点，克隆/复刻/翻拍/改编成自己版本的全流程导演流水线。用户给参考视频链接或文件，想保留结构节奏爆点、同时换人/换产品/换品牌/换语言/换场景重做时使用（口播/盘点/短剧/街采/双人播客/讲解/旁白带货）。不用于：从零创意全新片、时尚高定大片（fashion-studio）、纯剪辑。
 license: CC-BY-NC-4.0
 metadata:
   author: "hexiaoyu0525-design"
