@@ -20,7 +20,7 @@ metadata:
 
 **能做：**
 - 把参考视频拆到时间码级（每层画面、字幕、图形、声音在做什么、为什么有效）。
-- 系统改编：换人/换产品/换语言/换行业/换平台时长，保留"关系"而非"像素"。
+- 系统改编：换人/换产品/换品牌/换语言/换场景/换行业/换平台时长，保留"关系"而非"像素"。
 - 产出可拍摄的脚本、分镜、镜头级素材清单与生成提示词。
 - 用当前平台的图生成出身份锚点图、视频生成出表演与空镜、配音合成出人声。
 - 给出剪辑合成、字幕、混音、图形方案与逐镜头审片清单。
@@ -39,7 +39,7 @@ metadata:
 | --- | --- | --- |
 | 1. 立项 | `BRIEF.md`：用户权威信息（目标/受众/平台/交付/必守事实/CTA/替换项/身份资产/时长画幅/额度） | [01-brief-treatment.md](references/01-brief-treatment.md) |
 | 2. 拆参考 | `ANALYSIS.md`（整片模型）+ `TIMELINE.md`（时间码分层） | [02-reference-analysis.md](references/02-reference-analysis.md) |
-| 3. 改编导演案 | `TREATMENT.md`：保留哪些关系、重塑哪些形式，新片的 Hook/揭示/收束/各视觉系统 | [03-transformations.md](references/03-transformations.md) |
+| 3. 改编导演案 | `TREATMENT.md`：保留哪些关系、重塑哪些形式，新片的 Hook/揭示/收束/各视觉系统 | [03-transformations.md](references/03-transformations.md)（TREATMENT 结构见 01 第二节，改编操作见 03） |
 | 4. 脚本与时间 | `SCRIPT.md`：分段、角色、显示/发音双文本、语义锚点、时长估算 | [04-script-timing.md](references/04-script-timing.md) |
 | 5. 素材生产 | 身份锚点图 → 表演/空镜视频 → 配音；素材清单、依赖链、参考图职责 | [05-asset-generation.md](references/05-asset-generation.md) |
 | 6. 合成与审片 | 拼接、字幕、BGM、图形；对照参考按功能审查；返工归属 | [06-assembly-review.md](references/06-assembly-review.md) |
@@ -80,7 +80,7 @@ metadata:
 
 - 一条参考可支撑多个改编版本；一条新片也可融合多条参考（多参考时在 TREATMENT 里写明每个系统取自哪条，不要无脑混合）。
 - 文档随做随更新，是跨会话的工作记忆，不是日志。
-- 模板见 `assets/templates/`（BRIEF/TREATMENT/ANALYSIS/TIMELINE/SCRIPT），复制到项目后填写。
+- 模板见 `assets/templates/`（BRIEF/TREATMENT/ANALYSIS/TIMELINE/SCRIPT），复制到项目后填写；REVIEW.md 为审片过程记录，按 06 第六节清单随做随记，不提供模板。
 
 ## 三份核心文档的归属（避免改错地方）
 

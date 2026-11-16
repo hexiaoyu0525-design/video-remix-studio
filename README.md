@@ -8,13 +8,37 @@
 
 - **方法论与生成平台解耦**：SKILL.md 与 references 只提"角色"（图生视频、配音、剪辑……），具体工具名只写在 `references/00-tool-adapters.md`；换 agent / 换平台只改这一份适配层，方法论不动。
 - **六阶段流水线 + 阶段门**：按顺序推进，每阶段有产出物和"进入下一阶段的门槛"，没到门槛不生成；任何耗额度/付费生成前先向用户出示素材清单取得同意。
-- **文件即记忆**：每项目五份标准文档（BRIEF / TREATMENT / SCRIPT / ANALYSIS / TIMELINE）+ 五份模板（`assets/templates/`），参考事实与新片事实严格分开。
+- **文件即记忆**：每项目五份标准文档模板（BRIEF / TREATMENT / SCRIPT / ANALYSIS / TIMELINE）+ REVIEW 审片记录（无模板，随做随记），外加 references/、production/assets/、production/shots/ 等工作目录，参考事实与新片事实严格分开。
 - **与 `fashion-studio` 配套**（同作者、同许可）：时尚 / 高定大片类的克隆，生图美学与人物比例以 fashion-studio 为准，本技能负责导演流水线与跨素材编排。
 
 ## 安装
 
-- `npx skills add <你的GitHub用户名>/video-remix-studio`，或
+- `npx skills add hexiaoyu0525-design/video-remix-studio`，或
 - 手动把 `video-remix-studio` 文件夹放进该 Agent 的 skills 目录。
+
+## 目录结构
+
+```
+video-remix-studio/
+├─ SKILL.md                     # 入口：六阶段流水线、阶段门、开工方式
+├─ README.md                    # 本文件（给人看）
+├─ LICENSE                      # CC BY 4.0
+├─ references/                  # 方法论（Agent 按需加载）
+│  ├─ 00-tool-adapters.md       # 工具适配层（唯一写具体工具名的地方）
+│  ├─ 01-brief-treatment.md     # 阶段1 立项（BRIEF）+ 阶段3 改编导演案（TREATMENT）
+│  ├─ 02-reference-analysis.md  # 阶段2 拆参考（ANALYSIS / TIMELINE）
+│  ├─ 03-transformations.md     # 改编手法库（换人/换产品/换品牌/换语言/换场景）
+│  ├─ 04-script-timing.md       # 阶段4 脚本与时间（SCRIPT）
+│  ├─ 05-asset-generation.md    # 阶段5 素材生产（额度门：生成前先出示清单）
+│  ├─ 06-assembly-review.md     # 阶段6 合成与审片（REVIEW）
+│  └─ 07-formats.md             # 覆盖形态速查（口播/盘点/短剧/街采/播客/讲解/带货）
+└─ assets/templates/            # 五份项目文档模板
+   ├─ BRIEF.md                  #   立项单
+   ├─ TREATMENT.md              #   改编导演案
+   ├─ SCRIPT.md                 #   脚本与时间轴
+   ├─ ANALYSIS.md               #   参考片拆解
+   └─ TIMELINE.md               #   结构节奏表
+```
 
 ## 许可
 
